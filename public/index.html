@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>Nitrogen Math</title>
+    <link rel="shortcut icon" href="https://cdn.glitch.global/72ea2556-58ef-468a-a8bc-16decd6480e3/logo.jpg?v=1683810400062" type="image/x-icon">
+    <meta name="googlebot" content="index, follow, snippet" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="uv/uv.bundle.js" defer></script>
+    <script src="uv/uv.config.js" defer></script>
+    <script src="register-sw.js" defer></script>
+    <script src="search.js" defer></script>
+    <script src="index.js" defer></script>
+  </head>
+
+  <body>
+    <div
+      title="Nitrogen Math Logo"
+      class="flex-center logo-wrapper header-center"
+    >
+      <img class="logo" src="https://cdn.glitch.global/72ea2556-58ef-468a-a8bc-16decd6480e3/logo.jpg?v=1683810400062=" alt="Ultraviolet" />
+      <h1 title="Search Without Being Tracked Or Blocked">Nitrogen Math</h1>
+    </div>
+
+    <form id="uv-form" class="flex-center">
+      <input
+        id="uv-search-engine"
+        value="https://www.google.com/search?q=%s"
+        type="hidden"
+      />
+      <input id="uv-address" type="text" placeholder="Search the web freely" />
+    </form>
+    <div class="desc left-margin">
+      <p id="uv-error"></p>
+      <pre id="uv-error-code"></pre>
+    </div>
+    <footer>
+        <a title="Games" href="javascript: location.href = __uv$config.prefix + __uv$config.encodeUrl('https://skirtsnetwork.github.io/nativegames')">Games</a>
+      <span>Powered by Ultraviolet</span>
+    </footer>
+  </body>
+</html>
